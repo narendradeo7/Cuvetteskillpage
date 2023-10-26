@@ -1,0 +1,55 @@
+.progressbar-container{
+    width: 100%;
+    margin-top: 10px;
+    padding: 2%;
+    text-wrap: nowrap;
+}
+.progress-bar{
+    width:70%;
+    height:10px;
+    border-radius: 10px;
+}
+.progress-bar-fill{
+    height: 100%;
+    border-radius: 10px;
+    transition: width 0.5s ease-out;
+}
+.progress-bar-title{
+    font-size:1rem ;
+    font-weight: 400;
+    line-height: 1.2rem;
+}
+.prgbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+/* circular progress bar  */
+.circlprgbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circlebck{
+    fill: none;
+    stroke:#ddd;
+
+}
+
+
+.circle-prog{
+    fill: none;
+    stroke: var(--lightblue);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+
+}
+.circle-text{
+    font-size: 2.5rem;
+    line-height: 3.4rem;
+    font-weight: 400;
+}
